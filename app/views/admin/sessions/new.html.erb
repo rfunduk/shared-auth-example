@@ -1,0 +1,7 @@
+<%= form_tag admin_sessions_path, :method => :post do %>
+  Email: <%= text_field_tag :email %>
+  <br/>
+  Password: <%= password_field_tag :password %>
+  <br/>
+  <%= submit_tag 'login' %>
+<% end %>

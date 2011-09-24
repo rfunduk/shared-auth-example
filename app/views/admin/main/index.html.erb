@@ -1,0 +1,13 @@
+<p>This page is behind the admin login wall.</p>
+
+<p>You are logged in as <strong><%= @admin.name %></strong>.
+
+<p>
+  You can check out the mounted micro app:
+  <a href="/admin/mrmicro">Mr. Micro</a>
+</p>
+
+<p>
+  <a href="<%= admin_logout_path %>">logout?</a>,<br/>
+  try out Mr. Micro again once you're logged out.
+</p>
